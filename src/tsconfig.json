@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "../dist",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": true
+  },
+  "references": [
+    { "path": "../"}
+  ]
+}

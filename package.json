@@ -1,0 +1,48 @@
+{
+  "name": "script-zendesk-ticket-73263",
+  "version": "1.0.0",
+  "description": "This script implements the customer requirements specified by ticket #73263",
+  "main": "index.js",
+  "bin": {
+    "cli73263": "./dist/index.js"
+  },
+  "files": [
+    "src/*",
+    "dist/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leanix-public/script-zendesk-ticket-73263.git"
+  },
+  "scripts": {
+    "clean": "rimraf ./dist ./package *.tgz",
+    "build": "npm run clean && tsc -p ./src/tsconfig.json",
+    "test": "jest",
+    "prepack": "npm run build"
+  },
+  "keywords": [],
+  "author": "Paulo Santos <paulo.santos@leanix.net>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/figlet": "^1.5.6",
+    "@types/jest": "^29.5.2",
+    "@types/node": "^20.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.60.0",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.43.0",
+    "eslint-config-standard-with-typescript": "^35.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.5.0",
+    "rimraf": "^5.0.1",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "figlet": "^1.6.0",
+    "leanix-js": "^1.0.1"
+  }
+}
