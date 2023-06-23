@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "This script implements the customer requirements specified by ticket #73263",
   "main": "index.js",
-  "bin": {
-    "cli73263": "./dist/index.js"
-  },
   "files": [
     "src/*"
   ],
