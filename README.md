@@ -15,6 +15,7 @@ The project installs a command line interface tool that can be run using the fol
 ```
 git clone https://github.com/leanix-public/script-zendesk-ticket-73263.git
 cd script-zendesk-ticket-73263
+npm install
 npx cli73263 --host <your workspace host> --apitoken <your api token>
 ```
 
