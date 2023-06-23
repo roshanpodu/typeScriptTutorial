@@ -7,9 +7,11 @@
     "cli73263": "./dist/index.js"
   },
   "files": [
-    "src/*",
-    "dist/*"
+    "src/*"
   ],
+   "engines" : { 
+    "node" : ">=18"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/leanix-public/script-zendesk-ticket-73263.git"
@@ -18,6 +20,7 @@
     "clean": "rimraf ./dist ./package *.tgz",
     "build": "npm run clean && tsc -p ./src/tsconfig.json",
     "test": "jest",
+    "postinstall": "npm run build",
     "prepack": "npm run build"
   },
   "keywords": [],
