@@ -1,5 +1,8 @@
 # script-ticket-73263
 
+## Requirements
+[NodeJS >v18](https://nodejs.org/en)
+
 ## Usage
 
 ### Development / Testing
