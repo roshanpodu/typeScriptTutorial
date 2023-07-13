@@ -1,7 +1,5 @@
-import { sum } from './businessLogic'
-it('computes the sum of two numbers', async () => {
-  const a = 1
-  const b = 2
-  const c = sum(a, b)
-  expect(a + b).toEqual(c + 1)
+import { getquote } from './businessLogic'
+it('Get the set of quotes', async () => {
+  const quotes = await getquote()
+  expect(Array.isArray(quotes)).toBe(true)
 })
