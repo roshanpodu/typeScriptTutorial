@@ -1,17 +1,17 @@
 {
-  "name": "script-zendesk-ticket-73263",
+  "name": "typescripttutorial",
   "version": "1.0.0",
   "description": "This script implements the customer requirements specified by ticket #73263",
   "main": "index.js",
   "files": [
     "src/*"
   ],
-   "engines" : { 
-    "node" : ">=18"
+  "engines": {
+    "node": ">=18"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/leanix-public/script-zendesk-ticket-73263.git"
+    "url": "https://github.com/roshanpodu/typeScriptTutorial"
   },
   "scripts": {
     "clean": "rimraf ./dist ./package *.tgz",
